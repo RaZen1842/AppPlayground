@@ -14,6 +14,8 @@
 		273BE93C2C4DB04F0072E32A /* Project_App_PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273BE93B2C4DB04F0072E32A /* Project_App_PlaygroundTests.swift */; };
 		273BE9462C4DB04F0072E32A /* Project_App_PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273BE9452C4DB04F0072E32A /* Project_App_PlaygroundUITests.swift */; };
 		273BE9482C4DB04F0072E32A /* Project_App_PlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273BE9472C4DB04F0072E32A /* Project_App_PlaygroundUITestsLaunchTests.swift */; };
+		273BE9572C4DB22A0072E32A /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273BE9562C4DB22A0072E32A /* HomePageView.swift */; };
+		273BE95A2C4DB3A90072E32A /* TwitterFeedPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273BE9592C4DB3A90072E32A /* TwitterFeedPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		273BE9412C4DB04F0072E32A /* Project App PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project App PlaygroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		273BE9452C4DB04F0072E32A /* Project_App_PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_App_PlaygroundUITests.swift; sourceTree = "<group>"; };
 		273BE9472C4DB04F0072E32A /* Project_App_PlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_App_PlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		273BE9562C4DB22A0072E32A /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		273BE9592C4DB3A90072E32A /* TwitterFeedPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFeedPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				273BE92A2C4DB04E0072E32A /* Project_App_PlaygroundApp.swift */,
 				273BE92C2C4DB04E0072E32A /* ContentView.swift */,
+				273BE9562C4DB22A0072E32A /* HomePageView.swift */,
+				273BE9592C4DB3A90072E32A /* TwitterFeedPageView.swift */,
 				273BE92E2C4DB04F0072E32A /* Assets.xcassets */,
 				273BE9302C4DB04F0072E32A /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				273BE92D2C4DB04E0072E32A /* ContentView.swift in Sources */,
+				273BE95A2C4DB3A90072E32A /* TwitterFeedPageView.swift in Sources */,
+				273BE9572C4DB22A0072E32A /* HomePageView.swift in Sources */,
 				273BE92B2C4DB04E0072E32A /* Project_App_PlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
