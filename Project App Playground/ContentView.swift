@@ -15,6 +15,14 @@ struct ContentView: View {
                     .tabItem {
                         Label("Home", systemImage: "house")
                     }
+                SearchPageView()
+                    .tabItem {
+                        Label("Search", systemImage: "magnifyingglass")
+                    }
+                FavouritesView()
+                    .tabItem {
+                        Label("Favourites", systemImage: "star")
+                    }
                 TwitterFeedPageView()
                     .tabItem {
                         Label("News", systemImage: "newspaper")
